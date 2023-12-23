@@ -1,0 +1,40 @@
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-color: rgb(222, 222, 222);
+  border-bottom-style: solid;
+  z-index: 100;
+}
+
+.left-section {
+  display: flex;
+  width: 150px;
+  align-items: center;
+}
+
+.middle-section {
+  display: flex;
+  flex: 1;
+  max-width: 600px;
+  margin-left: 70px;
+  margin-right: 35px;
+  align-items: center;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
